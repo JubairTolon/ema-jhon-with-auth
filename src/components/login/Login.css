@@ -6,6 +6,8 @@
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    margin-top: 70px;
+    box-shadow: -10px 12px 1px 1px rgb(241, 210, 57);
 }
 
 .form-title {
@@ -25,24 +27,64 @@
 
 .input-group input {
     width: 415px;
-    height: 55px;
+    height: 40px;
     border: 1px solid #95A0A7;
     border-radius: 5px;
     box-sizing: border-box;
-    font-size: 25px;
+    font-size: 16px;
+    padding: 0 5px;
 }
 
 .form-submit {
     width: 415px;
-    height: 55px;
+    height: 40px;
     background-color: rgba(255, 153, 0, 0.3);
     border-radius: 5px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
+
+}
+
+.form-submit:hover {
+    background-color: rgba(255, 153, 0, 0.677);
+    ;
 }
 
 .from-link {
     color: #FF9900;
     text-decoration: none;
+}
+
+.lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.lines p {
+    margin: 0 8px;
+}
+
+.line {
+    background-color: #95A0A7;
+    height: 1px;
+    width: 50%;
+}
+
+.google-sign {
+    width: 100%;
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.google-sign p {
+    margin: 10px 0 8px 8px;
 }
