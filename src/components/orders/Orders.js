@@ -4,7 +4,6 @@ import useCart from '../../hooks/useCart';
 import useProducts from '../../hooks/useProducts';
 import { removeFromDb } from '../../utilities/fakedb';
 import Cart from '../cart/Cart';
-import Product from '../product/Product';
 import ReviewItem from '../reviewItem/ReviewItem';
 import './Orders.css'
 
@@ -31,9 +30,7 @@ const Orders = () => {
             </div>
             <div className='cart-container'>
                 <Cart cart={cart}>
-                    <Link to="/inventory">
-                        <button onClick={() => navigate('/inventory')}>Proseed Checkout</button>
-                    </Link>
+                    <button onClick={() => navigate('/shipment')}>Proceed Shipping</button>
                 </Cart>
             </div>
         </div>

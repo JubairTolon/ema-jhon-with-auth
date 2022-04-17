@@ -9,6 +9,13 @@
 * 8. useCreateUserWithEmailAndPassword(auth); from react-firebase-hooks and navigate ro shop
 * 9. if user creacted redirect to the aspected page
 * 10. useSignInWithEmailAndPassword(auth); for sign In
+* 11. create RequireAuth component and set it, make required inventory from App.js, set "from" that from where we came to login, and set this condition
+    if (user) {
+        navigate(from, { replace: true });
+    }
+    , create signout button. 
+* 12. Implement SignOut button on Header and Create a shipment form at shipment component
+* 13. 
 */
 
 
